@@ -1,15 +1,13 @@
 version: '3.0'
 services:
   db:
-    image: postgres:14.1-alpine
+    image: postgres:14.1
     restart: always
     environment:
-      - POSTGRES_DB=aled
-      - POSTGRES_USER=admin
-      - POSTGRES_PASSWORD=watimotdepasse
-      - PGDATA=/var/lib/postgresql/data
+      - POSTGRES_DB=postgres
+      - POSTGRES_PASSWORD=mysecretpassword
     ports:
-      - '5434:5432'
+      - '49153:5432'
     volumes: 
       - data:/var/lib/postgresql/data
 volumes:
