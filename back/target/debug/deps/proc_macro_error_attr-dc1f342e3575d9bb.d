@@ -1,0 +1,7 @@
+/home/xaelee/Documents/perso/Recip-e/back/target/debug/deps/libproc_macro_error_attr-dc1f342e3575d9bb.so: /home/xaelee/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-attr-1.0.4/src/lib.rs /home/xaelee/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-attr-1.0.4/src/parse.rs /home/xaelee/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-attr-1.0.4/src/settings.rs
+
+/home/xaelee/Documents/perso/Recip-e/back/target/debug/deps/proc_macro_error_attr-dc1f342e3575d9bb.d: /home/xaelee/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-attr-1.0.4/src/lib.rs /home/xaelee/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-attr-1.0.4/src/parse.rs /home/xaelee/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-attr-1.0.4/src/settings.rs
+
+/home/xaelee/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-attr-1.0.4/src/lib.rs:
+/home/xaelee/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-attr-1.0.4/src/parse.rs:
+/home/xaelee/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-attr-1.0.4/src/settings.rs:
