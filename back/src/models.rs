@@ -1,18 +1,22 @@
-use diesel::{prelude::*, sql_types::Array};
-
-use crate::schema::ingredients;
-use crate::schema::recipes;
+use diesel::prelude::*;
 
 #[derive(Queryable)]
-pub struct PostIngredient {
+pub struct Ingredient {
     pub id: i32,
-    pub name_: String
+    pub name_: String,
+    pub mesure: String,
 }
 
 #[derive(Queryable)]
-pub struct PostRecipe {
+pub struct Recipe {
     pub id: i32,
     pub title: String,
-    pub ingr: Array<Array<i32>>,
-    pub tags: Array<String>
+    pub tags: Vec<String>
+}
+
+#[derive(Queryable)]
+pub struct Jointure {
+    pub recipe_id: i32,
+    pub ingredient_id: i32,
+    pub quantity: i32
 }

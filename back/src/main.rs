@@ -5,7 +5,9 @@ use back::{*, schema::recipes};
 fn main() {
     let connection = &mut establish_connection();
     let results = recipes::table
-        .limit(4);
+        .limit(4)
+        .load::<Recipe>(connection)
+        .expect("Error loading");
 
     println!("Displaying {} posts", results.len());
     for post in results {
